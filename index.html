@@ -13,14 +13,16 @@
         <!--Nome da pagina na aba-->
         <title>Site da associacao de moradores</title>                        
     </head>
+
         <!--Corpo da pagina-->
         <body>
+
             <!--Cabecalho-->
             <header>
             <!--Banner ACOP-->
-                <img src="/Img ACOP/Juntos Somos Mais Fotes.png"
-                width="1868px" height="500px">                       
+                <img src="/Img ACOP/Banner ACOP 01.1.png">                            
             </header>
+
             <!--Menu de navegacao-->
            <nav>               
                 <ul>
@@ -28,7 +30,7 @@
                 <!--link pagina historico-->
                     <a href="historico.html">
                     <img src="/Img ACOP/Pilha de Livroa 02.webp" alt="icone pilha de livros">
-                    <h2><b>Historico </b></h2>
+                    <h2><b>Historico</b></h2>
                     </a>
                     </li>
 
@@ -54,10 +56,14 @@
                     <!--titulo formulario-->
                         <h3>Receba nossas Noticias.</h3>
                     <!--formulario cadastro receba noticias-->
-                        <form>
-                            <input type="text" placeholder="Nome">
-                            <input type="tel" placeholder="Telefone">
-                            <input type="submit" value="Enviar >">
+                        <form
+                        action="https://sheetdb.io/api/v1/gf7665omrm2n9"
+                        method="post"
+                        name="Form Receba nossas Noticias">
+                            
+                            <input type="text" name="Nome" placeholder="Nome">
+                            <input type="tel" name="Telefone" placeholder="Telefone">
+                            <input type="submit" value="Enviar">
                         </form>        
                 </aside>
            </nav>
@@ -117,5 +123,6 @@
                         </p>
                 </center>                                                 
             </footer>
+            <script src="https://sheetdb.io/handlebars.js"></script>
         </body>
 </html>
